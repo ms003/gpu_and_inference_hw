@@ -12,8 +12,8 @@ HW1 and HW2 together add up to **100 points**. See each subfolder's `README.md` 
 
 ```bash
 sudo apt-get install -y python3-dev
-python3 -m venv .venv
-source .venv/bin/activate
+python3 -m venv .gpuvenv
+source .gpuvenv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
